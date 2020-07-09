@@ -24,7 +24,7 @@ public class Application {
 		System.out.println("Nome: ");
 		String nome = scan.next();
 		System.out.println("Cargo na loja: ");
-		scan.next();
+		scan.nextLine();
 		String cargo = scan.next();
 		System.out.println("Salário Fixo : ");
 		double salario = scan.nextDouble();
